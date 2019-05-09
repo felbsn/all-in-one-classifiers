@@ -2,7 +2,7 @@
 
 
 Yapay Zeka 2. Ödev
-Fatih Elbasan 16011075
+A. Bilal Güvenç 16011069 Fatih Elbasan 16011075
 
 Veri Seti:
 Dataset 3 adet sınıf içermekte  portakal , domates ,elma resimler telefon kamerası ile çektim tekli çoklu farklı poziyonlarda ve farklı arkaplanlarda örnekler aldım. Veriseti üzerinde herhagi bir boyutlandırma işlemi yapmadım , boyutlandırmayı program içerisinde yapıyorum.
@@ -19,17 +19,18 @@ Gerekli Kütüphaneler
     • matploplib
 not: uygulamayı linux üzerinde python 3.7 ile çalıştırıyorum 
 
-Dahil Edilen Algoritmalar
- Nearest Neighbors 
- Linear SVM 
- RBF SVM 
- Gaussian Process 
- Decision Tree 
- Random Forest 
- Neural Net 
- AdaBoost 
- Naive Bayes 
-Sonuçlar:
+Dahil Edilen Algoritmalar<br>
+ Nearest Neighbors <br>
+ Linear SVM <br>
+ RBF SVM <br>
+ Gaussian Process <br>
+ Decision Tree <br>
+ Random Forest <br>
+ Neural Net <br>
+ AdaBoost <br>
+ Naive Bayes <br>
+ 
+Sonuçlar:<br>
 Sonuçları eğitim işlemi bittikten sonra test verisinin %30 u  ile kontrol edip başarı oranlarını yazdırdım
 
 
