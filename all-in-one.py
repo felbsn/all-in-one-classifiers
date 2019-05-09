@@ -101,10 +101,12 @@ if enable == -1:
         enables[c] = True
 elif enable >= 0 and enable < len(enables):
     enables[enable] = True;
+else:
+    print("Seçim yapılmadı")
+    exit(-1)
 
 
 dims = input("Boyut girin w,h : " ).split(',');
-print("imds " , dims)
 dims = (int(dims[0]) ,int(dims[1])) 
 
 print(" Aktif :"  ,names[enable]);
@@ -132,7 +134,6 @@ for clf in classifiers:
                 trueCount += 1;
         print(" başarı oranı " ,  trueCount / num);
         del clf;
-        #print("Classification report for - \n{}:\n{}\n".format(clf, metrics.classification_report(y_test, y_pred)))
     i +=1
 
 
